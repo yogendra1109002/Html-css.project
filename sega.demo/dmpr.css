@@ -1,0 +1,662 @@
+.midcont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1234px;
+    margin: 0px auto;
+}
+
+
+.bdys{
+    font-family: Ambit, Helvetica, Arial, "sans-serif";
+}
+
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.MuiButton-outlinedPrimary {
+    color: #1E3282;
+    border: 2px solid #AAD7D7;
+    background: #AAD7D7;
+    border-radius: 8px;
+}
+@media (min-width: 1280px) {
+    .top {
+        padding: 0px;
+    }
+    .ljiQHu {
+        position: absolute;
+        right: 0px;
+    }
+
+    .nvbtn{
+        visibility: hidden;
+    }
+
+    .tdmcx{
+        display: none;
+    }
+    
+}
+
+@media (max-width:1280px) {
+    .hcon{
+        /* visibility: hidden; */
+        display: none!important;
+    }
+
+    .tdmc1{
+        display: none !important;
+    }
+
+    .tdmcx{
+        display: inline-block;
+        margin: 0px 8px;
+    }
+}
+@media (min-width: 1080px) {
+    body .MuiButton-root {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .mscn{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .hrmximg a {
+        min-width: 100%;
+        padding: 10px 24px !important;
+        height: 56px !important;
+    }
+
+    .hrmximg > div > a > span.hrac {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .hrmximg a > span > span.ms {
+        margin-right: 8px;
+
+    }
+
+    .ms{
+        display: flex;
+        align-items: center;
+    }
+
+    
+
+    .nvmnu {
+        height: auto;
+        overflow-y: auto;
+        box-shadow: gray 8px 8px 8px;
+    }
+
+    .nvopt1 {
+        height: auto;
+        position: relative;
+        width: 30%;
+        transform: translateX(0px);
+    }
+
+    .nvmnu .nav-container {
+        height: 100%;
+    }
+    .smma {
+        position: relative;
+    }
+
+    .smma::before {
+        transition: all 500ms ease 0s;
+        transform-origin: left center;
+        transform: scaleX(0);
+        content: " ";
+        position: absolute;
+        left: -8px;
+        bottom: 0px;
+        top: 0px;
+        display: block;
+        width: 8px;
+        background-color: rgb(0, 165, 225);
+    }
+
+    .smma::after {
+        transition: all 500ms ease 0s;
+        transform-origin: right center;
+        transform: scaleX(0);
+        content: " ";
+        position: absolute;
+        right: 0px;
+        top: 12px;
+        display: block;
+        height: 0px;
+        width: 0px;
+        border-style: solid;
+        border-width: 16px 16px 16px 0px;
+    }
+}
+
+
+.top {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 16px;
+    position: relative;
+}
+
+.bdys a{
+    color: rgb(30, 50, 130);
+    text-decoration: none;
+}
+
+.bdys *{
+    box-sizing: border-box;
+}
+
+.nvlim{
+    display: flex;
+    position: relative;
+}
+
+
+.top .hlimg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: fill;
+
+}
+
+.hcon{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    margin: 0px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.hcon li{
+    
+    margin: 0px 16px;
+    position: relative;
+}
+.hcon li:hover{
+    .navli::before {
+        transition: all 300ms ease 0s;
+        content: " ";
+        background-color: rgb(30, 50, 130);
+        height: 8px;
+        position: absolute;
+        top: -30px;
+        left: 0px;
+        right: 0px;
+        transform: translateY(-100%);
+        
+        
+    }
+}
+
+.navli{
+    color: rgb(30, 50, 130);
+    text-decoration: none;
+}
+
+.hcon li:hover{
+    .navli{
+        text-decoration: underline;
+    }
+}
+
+.mscn:hover{
+    text-decoration: underline;
+}
+
+    .hrimg{
+        display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+    .hrmximg{
+        margin-left: 12px;
+        color: #1E3282;
+        border: 2px solid #AAD7D7;
+        background: #AAD7D7;
+        border-radius: 8px;
+    }
+
+    .hrmximg > div {
+        margin: auto;
+    }
+
+    .hrmning{
+        display: flex;
+    flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 16px;
+    }
+
+    .hrmximg a {
+        min-width: fit-content;
+        padding: 8px !important;
+        height: 48px !important;
+    }
+
+    .MuiButton-root {
+        color: rgba(0, 0, 0, 0.87);
+        height: 48px;
+        padding: 18px 48px;
+        font-size: 16px;
+        min-width: 64px;
+        box-shadow: none;
+        box-sizing: border-box;
+        transition: all ease 0.3s;
+        font-family: "Ambit", "Helvetica", "Arial", "sans-serif";
+        font-weight: 700;
+        line-height: 20px;
+        border-radius: 8px;
+        text-transform: none;
+    }
+    .MuiButtonBase-root {
+        color: inherit;
+        border: 0;
+        cursor: pointer;
+        margin: 0;
+        display: inline-flex;
+        outline: 0;
+        padding: 0;
+        position: relative;
+        align-items: center;
+        user-select: none;
+        border-radius: 0;
+        vertical-align: middle;
+        -moz-appearance: none;
+        justify-content: center;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .MuiButton-outlinedPrimary {
+        color: #1E3282;
+        border: 2px solid #AAD7D7;
+        background: #AAD7D7;
+        border-radius: 8px;
+    }
+
+    .MuiButtonBase-root {
+        color: inherit;
+        border: 0;
+        cursor: pointer;
+        margin: 0;
+        display: inline-flex;
+        outline: 0;
+        padding: 0;
+        position: relative;
+        align-items: center;
+        user-select: none;
+        border-radius: 0;
+        vertical-align: middle;
+        -moz-appearance: none;
+        justify-content: center;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .jRQKKw.MuiButtonBase-root{
+        font-weight: 500;
+        height: 56px;
+        padding: 10px 24px;
+    } 
+
+    .hrac {
+        width: 100%;
+        display: inherit;
+        align-items: inherit;
+        justify-content: inherit;
+    }
+
+    .hrac {
+        width: 100%;
+        display: inherit;
+        align-items: inherit;
+        justify-content: inherit;
+    }
+
+    .hrmximg a > span > span.ms {
+        margin: 0px;
+    }
+
+    .mis > *:first-child {
+        font-size: 30px;
+    }
+
+    .nvbtn {
+        width: 120px;
+        color: rgb(30, 50, 130);
+        border: 1px solid transparent;
+        padding: 13px;
+        border-radius: 8px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nvbtn .icon {
+        display: inline-block;
+        margin-right: 12px;
+        height: 17px;
+        width: 24px;
+        position: relative;
+    }
+
+    .nvbtn .icon span:nth-child(1) {
+        top: 0px;
+    }
+    .nvbtn .icon span:nth-child(2) {
+        top: 8px;
+    }
+    .nvbtn .icon span:nth-child(3) {
+        top: 8px;
+    }
+    .nvbtn .icon span:nth-child(4) {
+        top: 16px;
+    }
+
+    .nvbtn .icon span {
+        display: block;
+        height: 3px;
+        left: 0px;
+        opacity: 1;
+        position: absolute;
+        width: 100%;
+        background-color: rgb(30, 50, 130);
+    }
+
+    .nvmnu {
+        transition: all 200ms ease 0s;
+        background-color: rgb(212, 235, 235);
+        z-index: 1000;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 100%;
+        height: calc(-80px + 100vh);
+        transform-origin: center top;
+        transform: scaleY(0);
+        overflow: hidden scroll;
+        display: flex;
+        flex-direction: row;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+    }
+
+    .nvopt1 {
+        transition: all 200ms ease 0s;
+        height: calc(-80px + 100vh);
+        background: rgb(30, 50, 130);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+    }
+
+    .nvmnu .nav-container {
+        height: calc(-80px + 100vh);
+        overflow-y: scroll;
+    }
+
+    .nvmul {
+        list-style: none;
+        margin: 0px;
+        padding: 16px 0px 16px 24px;
+    }
+
+    .smm {
+        position: relative;
+    }
+
+    .nvopt1 a {
+        color: white !important;
+    }
+
+    .smma {
+        cursor: pointer;
+        display: flex;
+        padding: 16px;
+    }
+
+    .nvopt1 a::after {
+        border-color: transparent rgb(212, 235, 235) transparent transparent;
+    }
+
+    .nvopt2 {
+        transition: all 200ms ease 0s;
+        height: calc(-80px + 100vh);
+        background: rgb(212, 235, 235);
+        width: 100%;
+        position: absolute;
+        transform: translateX(100%);
+    }
+
+    .midcont .nav-content {
+        overflow-y: scroll;
+        height: 100%;
+        width: 100%;
+    }
+
+    .hqzZg {
+        background-color: rgb(30, 50, 130);
+        color: rgb(255, 255, 255);
+    }
+
+    .bvHtkA {
+        cursor: pointer;
+        border: none;
+        padding: 8px 16px;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .MuiSvgIcon-root {
+        fill: currentColor;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        font-size: 1.7142857142857144rem;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        flex-shrink: 0;
+        user-select: none;
+    }
+
+    .bvHtkA span {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: Ambit, Helvetica, Arial, "sans-serif";
+        padding-top: 0.25rem;
+    }
+
+    .nvopt3 .nav-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kFVTxU {
+        background-color: rgb(30, 50, 130);
+        color: rgb(255, 255, 255);
+    }
+
+    .bvHtkA {
+        cursor: pointer;
+        border: none;
+        padding: 8px 16px;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+    .MuiSvgIcon-fontSizeLarge {
+        font-size: 2.5rem;
+    }
+
+    .MuiSvgIcon-root {
+        fill: currentColor;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        font-size: 1.7142857142857144rem;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        flex-shrink: 0;
+        user-select: none;
+    }
+
+    .bvHtkA span {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: Ambit, Helvetica, Arial, "sans-serif";
+        padding-top: 0.25rem;
+    }
+
+    .hvrr{
+        display: none;
+
+    }
+    .hvrr ul, .hvrr ul li{
+        list-style-type: none;
+        float: inline-start;
+        margin-right: 20px;
+        padding: 20px;
+        background-color: blue;
+    }
+
+    .hvrr ul li a{
+        color: white;
+    }
+
+    .nvbtn{
+        position: relative;
+        display: inline-block;
+    }
+
+    .nvbtn:hover .hvrr{
+        display: block;
+        position: absolute;
+        height: 100%;
+        float: inline-start;
+        text-align: left;
+    }
+
+    .tdmco1{
+        display: flex;
+        font-size: 18px;
+    font-family: "Ambit", "Helvetica", "Arial", "sans-serif";
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    position: relative;
+    }
+
+    .tdmco2{
+        display: flex;
+        -webkit-box-align: center;
+    align-items: center;
+    }
+    
+    .tdcn1{
+        display: flex;
+    align-items: center;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 16px;
+    position: relative;
+    }
+
+    .tdon .tdcn .tdmco2{
+        float: right;
+    } 
+
+    .tdon{
+        display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 16px;
+    margin-bottom: 16px;
+    }
+    .tdcn2{
+        max-width: 1232px;
+    width: 100%;
+    background-color: rgb(246, 251, 251);
+    border-radius: 0px;
+    }
+
+    .tdcn{
+        max-width: 1232px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .yhm{
+        margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    }
+
+    .tdmc1:hover{
+        text-decoration: underline #1E3282;
+    }
+    .tdmc1{
+        padding: 8px;
+        margin: 0;
+    box-sizing: border-box;
+    }
+
+    .tdmc1 a{
+    
+    }

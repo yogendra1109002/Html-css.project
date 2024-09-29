@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        main{
+            display: inline-block;
+            position: relative;
+        }
+        .lbt{
+            display: block;
+            padding: 12px 16px ;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: aquamarine;
+        }
+        .lin{
+            position: Absolute;
+            display: none;
+            background-color: #f9f9f9;
+            z-index: 1;
+            right: 0;
+            width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            
+        }
+        .main:hover .lin{
+            display: block;
+        }
+        .main:hover .lbt{
+            background-color: aliceblue;
+        }
+        .lin a{
+            display: block;
+            color: black;
+            text-decoration: none;
+            padding: 12px 16px;
+        }
+        .lin a:hover{background-color: #f1f1f1;}
+
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectet.</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet velit quos quis recusandae tempore autem doloremque aperiam.</p>
+    <div class="main" style="float:left;">
+        <button class="lbt" >Link</button>
+        <div class="lin" style="left:0">
+            <a href="#Link1">Link</a>
+            <a href="#Link2">Link</a>
+            <a href="#Link3">Link</a>
+        </div>
+    </div>
+    <div class="main" style="float: right;">
+        <button class="lbt" >Link</button>
+        <div class="lin">
+            <a href="#Link1">Link</a>
+            <a href="#Link2">Link</a>
+            <a href="#Link3">Link</a>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
