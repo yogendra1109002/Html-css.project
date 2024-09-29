@@ -1,0 +1,77 @@
+<html>
+<head>
+<style> 
+body{
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSUPeFFeQqaXmZHubOOAYwHlcjD7ck37WYCQ&s);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin:20px;
+}
+label{
+margin:20px;
+color:gray;
+}
+input{
+margin:8px;
+
+}
+h1{
+text-align:center;
+color:purple;
+}
+
+textarea{
+background-color:#a9b7ab;
+}
+</style>
+</head>
+<body>
+<h1>FILL THIS FORM</h1>
+<form>
+<fieldset>
+<legend STYLE="COLOR:purple ;font-size:30px ;">FORM:</legend>
+<label for="fname">FIRST NAME :</label>
+<input type="text" name="fname"><br>
+<label for="lname">LAST NAME :</label>
+<input type="text" name="lname"><br>
+<label for="mail">E-MAIL :</label>
+<input type="mail" name="email"><br>
+<input type="radio" id="male" name="gender" value"male">
+<label for="male">Male</label><BR>
+<input type="radio" id="female" name="gender" value"female">
+<label for="female">Female</label><BR>
+<input type="radio" id="other" name="gender" value"other">
+<label for="other">Other</label><BR>
+<label for="DISTRICT">DISTRICT :</label>
+<input type="text" name="DISTRICT"><br>
+<label for="COUNTRY">COUNTRY :</label>
+<input type="text" name="COUNTRY"><br>
+<label for="PIN code">PIN CODE :</label>
+<input type="text" name="PIN CODE"><br>
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday"><br>
+<SELECT style="background-color:gray ; color:white; padding:8px; margin:20px; ">
+<option value"volvo">volvo</option>
+<option value="bmw">bmw</option>
+<option value="audi">audi</option>
+</SELECT><BR>
+
+  <input list="model" name="model">
+  <datalist id="model">
+    <option value="top">
+    <option value="below top">
+    <option value="base">
+    
+  </datalist><BR>
+    <label for="favcolor">Select color for your car:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+
+<button type="button" onclick="alert('FORM HAS BEEN SUBMITED')" style="background-color:gray ; color:white; padding:8px; margin:20px; " type="submit" name="submit">Submit</button>
+<input STYLE="background-color:gray; color:white;" type="Reset" value="Reset"><BR>
+<textarea name=" message-box" rows="15" cols="25"></textarea>
+</fieldset>
+</form>
+
+</body>
+</html>

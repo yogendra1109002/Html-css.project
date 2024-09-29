@@ -1,0 +1,197 @@
+body{
+    font-family: Okra, Helvetica, sans-serif;
+}
+.bdr_dropdwn a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.main_nav{
+    align-items: center;
+    text-align: center;
+}
+
+.appli_device{
+    margin-top: 14rem;
+    margin-bottom: 10rem;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d9534f; /* Default border color */
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="radio"]:checked::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #d9534f; /* Fill color when checked */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-check-label{
+    font-size: larger;
+    font-weight: 350;
+}
+
+.email_inpt{
+    border: 1px solid #d9534f;
+    height: 2.8rem;
+    border-radius: 0.5rem;
+    width: 60%;
+}
+.email_inpt:focus{border: 1px solid #d9534f;}
+
+.downl_img{width: 7.5rem;}
+.margin_left_apple{margin-left: 1rem;}
+.main{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width:768px) {
+    .right_search{
+        width: 10rem !important;
+    }
+
+    .card_m_left{
+        width: 25rem !important;
+    }
+}
+@media (max-width:505px){
+.mobile_img{
+    display: none !important;
+}
+}
+
+@media (max-width:450px) {
+    .inpt_width, .right_search{
+        width: 6rem !important;
+    }
+    .card_m_left{
+        width: 200px !important;
+    }
+    .mobile_img{
+        display: none !important;
+    }
+     .card_size, .line_hig{
+        width: 6rem !important;
+        font-size:small !important;
+        overflow: hidden;
+        line-height: 10px
+    }
+}
+
+@media (min-width:1000px) {
+    .zometo_medialist{
+        display: none !important;
+    }
+    
+}
+
+@media (max-width:1000px) {
+    .zometo_medialist{
+        display: block;
+    }
+
+    .main_nav .nav_left, .main_nav .nav_right {
+        display: none !important;
+    }
+}
+
+.search_btm input:focus{
+    outline:none;
+}
+.search_btm{
+    padding-bottom: 6rem;
+}
+
+.search_min{
+    line-height: 3.4rem;
+    border: 1px solid rgb(232, 242, 243);
+    border-radius: 0.8rem;
+}
+
+.input_srch{
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.right_search{ width: 30rem;}
+.main{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.nav-item-list{
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0.8rem ;
+}
+
+.nav_head{
+    font-size: 2.3rem;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.card_img_in{
+    height: 10rem;
+    object-fit: cover;
+}
+
+.card_m_left{ margin-left: 10%;}
+ 
+.Chhindwara_waight{
+    font-weight: 475;
+}
+
+.font_waight h5, .font_waight p{
+    font-weight: 400;
+}
+
+.line_hig{
+    line-height: 0.5rem;
+}
+
+.line_high{
+    line-height: 1rem;
+    float: right;
+}
+
+.bdr_dropdwn{
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 0.5rem;
+}
+.text-body{
+    text-decoration: none;
+}
+
+.list-unstyled li{
+    font-weight: 300;
+}
+
+.ysdmb{
+    border: 2px solid red;
+    height: 200rem;
+}
+.card_m_left .parra{
+    font-size:2.4rem;
+    font-weight: 370;
+}

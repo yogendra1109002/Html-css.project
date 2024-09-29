@@ -1,0 +1,590 @@
+body{
+    background: #fff;
+    color: #000;
+    height: 100%;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    box-sizing: border-box;
+}
+.application{
+    box-sizing: border-box;
+    position: relative;
+}
+
+article, aside, figure, footer, header, hgroup, section {
+    display: block;
+}
+
+body, button, h1, h2, input, pre, select, textarea {
+    font-family: Inter, sans-serif;
+}
+
+
+h1 h2 h3 h4 h5 h6 ol ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #00baf2;
+    cursor: pointer;
+}
+header .main{
+    height: 92px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+header{
+   
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 5px 20px rgba(0, 41, 112, .1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.main{
+     display: grid;
+    box-sizing: border-box;
+    
+}
+.navul{
+    list-style-type: none;
+    display: flex;
+    height: auto;
+}
+.navli{
+    display: flex;
+    width: 71%;
+    margin: auto;
+    justify-content: center;
+}
+.navli ul li{
+        margin-right: 5px;
+        padding: 3px;
+}
+
+.navli ul .navli1{
+    cursor: pointer;
+    position: relative;
+}
+.navli ul .navli1 a{
+    padding: 12px;
+    display: block;
+}
+.navli ul li a{
+    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+}
+ .coversign .signin{
+    padding: 2px 2px 2px 20px;
+    background: #00baf2;
+    cursor: pointer;
+    float: right;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    height: 33px;
+}
+.coversign{                         
+    margin-left: auto;
+    position: relative;
+    
+}
+
+.navtop{
+    display: flex;
+}
+
+.sec1{
+    box-sizing: border-box;
+    background-color: #e0f5fd;
+    padding: 50px 16px 10px;
+    margin: auto;
+    width: auto;
+}
+
+.sec_top_1{
+
+    box-sizing: border-box;
+    width: 100%;
+}
+.sec1top{
+    width: 1230px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.tbook{
+    box-sizing: border-box;
+}
+.stop .navtop{
+    justify-content: flex-start;
+}
+
+.stop .navtop a .flight img {
+    width: auto;
+    height: 25px;
+}
+
+.stop .navtop a{
+    position: relative;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #101010;
+    font-weight: 500;
+}
+.stop .navtop a .flight{
+    line-height: 16px;
+    padding: 0 4px 6px;
+    display: flex;
+    align-items: center;
+}
+.stop .navtop a .flight .qmD4o{
+    margin-bottom: 4px;
+    font-size: 25px;
+}
+.stop .navtop a .flight span{
+    position: relative;
+    bottom: 2px;
+}
+
+
+.stop .navtop .fly:after{
+    width: 100%;
+}
+.stop .navtop .fly:after{
+    content: "";
+    display: block;
+    background: #00baf2;
+    transition: width .3s;
+    height: 2px;
+}
+
+
+.stop{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.stop img{
+    width: 140px;
+    height: 21px;
+}
+
+.bview{
+    margin-top: 8px;
+}
+.bview{
+    
+    padding: 24px 36px;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+}
+.bview2{
+    background: #fff;
+    border-radius: 12px;
+    width: 1230px;
+    position: relative;
+    box-sizing: border-box;
+}
+.optop{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.ops1 input[type=radio] {
+    padding: 0;
+    position: absolute;
+}
+
+.ops1 input[type=radio]+label {
+    position: relative;
+    padding-left: 2em;
+    vertical-align: middle;
+    
+    user-select: ;
+    cursor: pointer;
+    font-size: 16px;
+}
+.opss{
+    padding-left: 2em;
+}
+
+.bview .tsel{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    gap: 32px;
+    cursor: pointer;
+}
+
+.bview .tsel .rout{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 45%;
+}
+
+
+.bview .tsel .rout .wayfr, .bview .tsel .wayto{
+    font-size: 12px;
+    color: #7e7e7e;
+    font-weight: 400;
+    flex-basis: 200px;
+    border-bottom: 1px solid hsla(0, 0%, 6%, .13);
+    display: flex;
+    flex-direction: column;
+}
+
+.bview .tsel .rout .wayfr .fr, .bview .tsel .wayto .to{
+    font-size: 12px;
+    color: hsla(0, 0%, 6%, .54);
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.bview .tsel .rout>div>.del , .bview .tsel .rout>div>.mum{
+    padding: 4px 0;
+}
+
+.bview .tsel .rout .del,.bview .tsel .rout .mum {
+    font-size: 18px;
+    color: #101010;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.bview .tsel .rout>div>.dehli, .bview .tsel .rout>div>.mumbai {
+    padding-bottom: 8px;
+    font-size: 12px;
+    color: #101010;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.bview .tsel .rtdt{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-basis: 25%;
+}
+
+.bview .tsel .rtdt .dptdt{
+    font-size: 12px;
+    color: #7e7e7e;
+    font-weight: 400;
+    line-height: 16px;
+    flex-basis: 48%;
+    border-bottom: 1px solid hsla(0, 0%, 6%, .13);
+}
+
+.bview .tsel .rtdt .dptdt, .bview .tsel .rtdt .rt , .bview .tsel .detail .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.bview .tsel .rtdt .dptdt .dd{
+    font-size: 12px;
+    color: hsla(0, 0%, 6%, .54);
+    font-weight: 400;
+    line-height: 16px;
+    padding: 0;
+}
+
+.bview .tsel .rtdt .dptdt span{
+    padding: 3px 0;
+    font-size: 18px;
+    color: #101010;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bview .tsel .trim{
+    width: 16px;
+    height: 16px;
+    margin: auto 20px;
+}
+
+.bview .tsel .rtdt>div>.dday{
+    padding-bottom: 8px;
+    color: #101010;
+    min-height: 16px;
+}
+
+.bview .tsel .rtdt .rt{
+    flex-basis: 48%;
+    border-bottom: 1px solid hsla(0, 0%, 6%, .13);
+    font-size: 12px;
+    color: #7e7e7e;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.bview .tsel .rtdt .rt .sym{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #7e7e7e;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.bview .tsel .rtdt .rt .sym span.symb{
+    font-size: 12px;
+    color: hsla(0, 0%, 6%, .54);
+    font-weight: 400;
+    line-height: 16px;
+    padding: 0;
+}
+
+.bview .tsel .rtdt .rt .add{
+    color: #00baf2;
+}
+.bview .tsel .rtdt .rt span{
+    padding: 3px 0;
+    font-size: 18px;
+    color: #101010;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.bview .tsel .rtdt>div>.mor{
+    padding-bottom: 8px;
+    color: #101010;
+    min-height: 16px;
+}
+
+.bview .tsel .detail{
+    flex-basis: 15%;
+    position: relative;
+}
+
+.bview .tsel .dett{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-basis: 25%;
+}
+
+.bview .tsel .detail .content{
+    font-size: 12px;
+    color: #7e7e7e;
+    font-weight: 400;
+    line-height: 16px;
+    flex-basis: 100%;
+    border-bottom: 1px solid hsla(0, 0%, 6%, .13);
+}
+
+.bview .tsel .detail .content .det{
+    justify-content: flex-start;
+}
+
+.bview .tsel .dett .content .det{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.bview .tsel .dett .content span{
+    padding: 3px 0;
+    font-size: 18px;
+    color: #101010;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bview .tsel .dett .content .det .type{
+    font-size: 12px;
+    color: #101010;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.bview .tsel .sear{
+    flex-basis: 15%;
+    padding-bottom: 9px;
+}
+
+.bview .tsel .sear button{
+    background: #00baf2;
+    color: #fff;
+    font-size: 16px;
+    height: 52px;
+    width: 178px;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.ticbtf, .ticbtf .ticbth{
+    display: flex;
+    align-items: center;
+}
+
+.ticbtf{
+    padding-top: 24px;
+    justify-content: space-between;
+}
+
+.ticbtf .ticbth{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.ticbtf .ticbth .ticops{
+    padding-right: 12px;
+    font-size: 14px;
+    color: hsla(0, 0%, 6%, .54);
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.ticbtf .ticbth p{
+    border: 1px solid hsla(0, 0%, 6%, .13);
+    padding: 7px 12px;
+    display: inline-flex;
+    border-radius: 50px;
+    margin: 0 8px 0 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: hsla(0, 0%, 6%, .54);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.tbtadd{
+    width: 1230px;
+    padding-top: 40px;
+    margin: 0 auto 40px;
+}
+
+.tbtadd2{
+    height: 278px;
+}
+
+@media only screen and (min-width: 960px) {
+    .adtsec {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto 40px;
+        box-sizing: border-box;
+    }
+}
+
+.addcon{
+    position: relative;
+}
+
+.addcon .adpag{
+    display: flex;
+    overflow: auto;
+    margin: 0 20px;
+}
+
+.adtsec .ad1{
+    width: max-content;
+    margin: 0 32px 0 0;
+    display: flex !important;
+}
+
+.adtsec .ad1 .tbtadss{
+    height: 238px;
+    width: 398px;
+    border-radius: 12px;
+    background: #f6f7f8;
+    background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    display: inline-block;
+    position: relative;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: H1Banner-module_placeholderShimmer__vEsU0;
+    animation-timing-function: linear;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.bills{
+    background: #00baf2;
+}
+
+.bills .billfl{
+    width: 1260px;
+    margin: auto;
+}
+
+.bills .billfl .billcon{
+    padding: 65px 0;
+}
+
+.bills .billfl .billcon h1{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.bills .billfl .billcon .billtype{
+    display: flex;
+    margin-top: 25px;
+}
+
+.bills .billfl .billcon .billtype .mobrec{
+    width: 140px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 11px 16px 16px;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bills .billfl .billcon .billtype .mobrec img{
+    width: 64px;
+    margin-bottom: 17px;
+    background: #fff;
+    border-radius: 100%;
+}
