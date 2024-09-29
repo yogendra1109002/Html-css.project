@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .he {
+            border: 2px solid red;
+            text-align: center;
+            
+        }
+
+        .name {
+            border: 2px solid red;
+            text-align: center;
+            width: 50%;
+            padding: 20px;
+            text-align: justify;
+
+        }
+
+        .rooms {
+            border: 2px solid red;
+            width: 50%;
+            text-align: center;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        nav, .rm1, .rm2 {
+            display: flex;
+        }
+        @media only screen and (max-width: 1000px){
+            nav{
+                display: block;
+            }
+        }
+        @media only screen and (max-width: 590px){
+            .rm1, .rm2{
+                display: block;
+                
+            }
+            .rm1 .name, .rm2 .rooms{
+                width: 100%;
+                padding: 0;
+                text-align: left;
+                
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="he">
+        <h1>Hotel</h1>
+    </div>
+    <nav>
+        <div class="rm1">
+            <div class="name">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+            </div>
+            <div class="name">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque optio placeat praesentium neque
+                    inventore aut aliquid quaerat labore fugiat magni ex, alias ab similique dolore laborum asperiores
+                    rem adipisci consequatur.</p>
+
+            </div>
+        </div>
+        <div class="rm2">
+            <div class="rooms">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+            </div>
+            <div class="rooms">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque optio placeat praesentium neque
+                    inventore aut aliquid quaerat labore fugiat magni ex, alias ab similique dolore laborum asperiores
+                    rem adipisci consequatur.</p>
+
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
